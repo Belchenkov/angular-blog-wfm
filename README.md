@@ -1,6 +1,6 @@
 # AngularBlogWfm
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.3.
+> Create Blog on Angular 8
 
 ## Development server
 
