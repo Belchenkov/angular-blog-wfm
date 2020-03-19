@@ -48,7 +48,8 @@ export class LoginPageComponent implements OnInit {
       this.form.reset();
       this.router.navigate(['/admin', 'dashboard']);
       this.submitted = false;
+    }, () => {
+      this.submitted = false;
     });
   }
-
 }
