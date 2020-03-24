@@ -12,6 +12,7 @@ import {Post} from '../../shared/interfaces';
 export class DashboardPageComponent implements OnInit, OnDestroy {
   posts: Post[] = [];
   pSub: Subscription;
+  searchStr: '';
 
   constructor(private postsService: PostsService) { }
 
