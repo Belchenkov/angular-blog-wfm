@@ -17,7 +17,7 @@ export class LoginPageComponent implements OnInit {
   message: string;
 
   constructor(
-      private auth: AuthService,
+      public auth: AuthService,
       private router: Router,
       private route: ActivatedRoute
   ) { }

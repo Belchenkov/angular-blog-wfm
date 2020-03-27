@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Forum|Shrikhand&display=swap&subset=cyrillic');
 @import "~quill/dist/quill.snow.css";
 
 :root {
@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Forum', cursive;
   font-size: 1rem;
   line-height: 1.6;
   background-color: #fff;
@@ -33,6 +33,10 @@ a {
   }
 }
 
+.mr-1 {
+  margin-right: 10px;
+}
+
 ul {
   list-style: none;
 }
@@ -46,6 +50,10 @@ img {
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
+}
+
+nav {
+  font-family: 'Shrikhand', cursive;
 }
 
 .text-primary {
@@ -272,6 +280,7 @@ table th {
   &.main {
     justify-content: center;
     border-bottom: 1px solid var(--dark-color);
+    text-shadow: 0 0 4px #111111;
   }
 
   ul {
